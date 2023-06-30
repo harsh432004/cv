@@ -1,78 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Contact Info</title>
+    <title>Contact Me</title>
 </head>
-<body>
-<h1>Here are my contact details</h1>
-<p>My personal number is 8866089546 
-    <br>
-    <br>
-    My Adress is 202 parshwa complex
-    <br>
-   <p> My Gmail Adress:harshvaidya432004@gmail.com 
-</p>
-<hr>
-<form action="" action="mailto:info@harshvaidya432004@gmail.com" method="post" enctype="text/palin">
-    
-<label>Your Name:</label>
-<input type="text" name="" value="">
-<input type="color" name="" value="">
-<br>
-<br>
-<label>Please Select your Gender: </label>
-<input type="checkbox" name="" value=""> Male
-<input type="checkbox" name="" value=""> Female
-<input type="checkbox" name="" value=""> Others
-<br>
-<br>
-<label>Please Enter Your adresss</label>
-<br>
-<textarea name="Your Adress" id="" cols="20" rows="5"></textarea>
-<br><br>
-<label>Please Select Your Birthdate</label>
-<input type="date" name="" id="">
-<br>
-<br>
-<label>please Submit your Reviews
-</label>
-<input type="text" name="" id="">
-<br>
-<br>
-<label> enter your password</label>
-<input type="password" name="" id="">
-<br>
-<br>
-<label>Are You 18+?</label>
-<input type="radio" value=""> yes
-<input type="radio" value=""> No
-<br>
-<br>
-<label>Please Post your Photo</label>
-<input type="image" name="" id="">
-<br>
-<br>
-<label>Your Hobbies</label>
-<input type="checkbox" name="" id="">Cricket
-<input type="checkbox" name="" id="">Dance
-<input type="checkbox" name="" id="">Singing
-<br>
-<br>
-<label>Please Submit Your Linkdin Profile Over Here</label>
-<input type="url" name="" id="">
-<br>
-<br>
-<label>Please Upload Your document over Here</label>
-<input type="file" name="" id="">
-<br>
-<br>
-<input type="submit" name="">
-<br>
-<br>
-<input type="reset" name="">
-</form>
+
+<body style="font-family: Arial, sans-serif; background-color: #f2f2f2; padding: 20px;">
+    <h1 style="color: #333; text-align: center; margin-bottom: 30px;">Contact Me</h1>
+    <p><strong>Personal Number:</strong> 8866089546</p>
+    <p><strong>Address:</strong> 202 Parshwa Complex</p>
+    <p><strong>Email:</strong> harshvaidya432004@gmail.com</p>
+    <hr style="border: none; border-top: 1px solid #ccc; margin: 40px 0;">
+    <form action="" action="mailto:info@harshvaidya432004@gmail.com" method="post" enctype="text/palin"
+        style="max-width: 500px; margin: 0 auto;">
+        <label for="name" style="font-weight: bold; margin-bottom: 10px; display: block;">Your Name:</label>
+        <input type="text" name="name" id="name" required
+            style="width: 100%; padding: 10px; margin-bottom: 20px; border-radius: 4px; border: 1px solid #ccc;">
+        <input type="color" name="color"
+            style="width: 100%; padding: 10px; margin-bottom: 20px; border-radius: 4px; border: 1px solid #ccc;">
+        <br>
+        <br>
+        <label style="font-weight: bold; margin-bottom: 10px;">Please Select Your Gender:</label>
+        <br>
+        <input type="radio" name="gender" value="male" style="margin-right: 5px;">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" name="gender" value="female" style="margin-right: 5px;">
+        <label for="female">Female</label>
+        <br>
+        <input type="radio" name="gender" value="other" style="margin-right: 5px;">
+        <label for="other">Other</label>
+        <br>
+        <br>
+        <label for="address" style="font-weight: bold; margin-bottom: 10px;">Please Enter Your Address:</label>
+        <br>
+        <textarea name="address" id="address" cols="20" rows="5"
+            style="width: 100%; padding: 10px; margin-bottom: 20px; border-radius: 4px; border: 1px solid #ccc;"></textarea>
+        <br>
+        <br>
+        <label for="birthdate" style="font-weight: bold; margin-bottom: 10px;">Please Select Your Birthdate:</label>
+        <input type="date" name="birthdate"
+            style="width: 100%; padding: 10px; margin-bottom: 20px; border-radius: 4px; border: 1px solid #ccc;">
+        <br>
+        <br>
+        <label for="review" style="font-weight: bold; margin-bottom: 10px;">Please Submit Your Reviews:</label>
+        <input type="text" name="review"
+            style="width: 100%; padding: 10px; margin-bottom: 20px; border-radius: 4px; border: 1px solid #ccc;">
+        <br>
+        <br>
+        <label for="password" style="font-weight: bold; margin-bottom: 10px;">Enter Your Password:</label>
+        <input type="password" name="password"
+            style="width: 100%; padding: 10px; margin-bottom: 20px; border-radius: 4px; border: 1px solid #ccc;">
+        <br>
+        <br>
+        <label style="font-weight: bold; margin-bottom: 10px;">Are You 18+?</label>
+        <br>
+        <input type="radio" name="age" value="yes" style="margin-right: 5px;">
+        <label for="age-yes">Yes</label>
+        <br>
+        <input type="radio" name="age" value="no" style="margin-right: 5px;">
+        <label for="age-no">No</label>
+        <br>
+        <br>
+        <label for="photo" style="font-weight: bold; margin-bottom: 10px;">Please Post Your Photo:</label>
+        <input type="file" name="photo"
+            style="width: 100%; padding: 10px; margin-bottom: 20px; border-radius: 4px; border: 1px solid #ccc;">
+        <br>
+        <br>
+        <label style="font-weight: bold; margin-bottom: 10px;">Your Hobbies:</label>
+        <br>
+        <input type="checkbox" name="hobbies" value="cricket" style="margin-right: 5px;">
+        <label for="hobby-cricket">Cricket</label>
+        <br>
+        <input type="checkbox" name="hobbies" value="dance" style="margin-right: 5px;">
+        <label for="hobby-dance">Dance</label>
+        <br>
+        <input type="checkbox" name="hobbies" value="singing" style="margin-right: 5px;">
+        <label for="hobby-singing">Singing</label>
+        <br>
+        <br>
+        <label for="linkedin" style="font-weight: bold; margin-bottom: 10px;">Please Submit Your LinkedIn
+            Profile:</label>
+        <input type="url" name="linkedin"
+            style="width: 100%; padding: 10px; margin-bottom: 20px; border-radius: 4px; border: 1px solid #ccc;">
+        <br>
+        <br>
+        <label for="document" style="font-weight: bold; margin-bottom: 10px;">Please Upload Your Document:</label>
+        <input type="file" name="document"
+            style="width: 100%; padding: 10px; margin-bottom: 20px; border-radius: 4px; border: 1px solid #ccc;">
+        <br>
+        <br>
+        <input type="submit" value="Submit"
+            style="display: inline-block; padding: 10px 20px; background-color: #333; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 16px;">
+        <input type="reset" value="Reset"
+            style="display: inline-block; padding: 10px 20px; background-color: #333; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 16px; margin-left: 10px;">
+    </form>
 </body>
+
 </html>
