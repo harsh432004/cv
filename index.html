@@ -4,99 +4,391 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harsh</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/line-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body>
-    <table cellspacing="20">
-        <tr>
-            <td> <img src="Snapchat-1550494638.jpg" alt="Harsh Vaidya"> </td>
-            <td> <h1>  Harsh Vaidya </h1>
-                <p><em>Founder and CEO of <strong><a href="https://www.google.co.in/">World of Essays</a></strong></em></p> 
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p></td>
-        </tr>
-    </table>
- 
-    <hr>
-    Dolores provident quam ab impedit asperiores error, est expe
-    <h3>dita aliquam excepturi odit, deserunt quaerat cum minima odio nam nemo? Impedit est sapiente vel, rerum doloremque quam. Sed.</h3></p>
-    <ol>
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Milk</li>
-      </ol>
-      <hr>
-     <h3> My Hobbies</h3> 
-      <ol>
-        <li><a href="ALiCzsaM4kUF5hAVt9GWxf93ofgXCAszvQ"  >cricket</a> </li>
-        <li>This is you</li>
-        <li>This is all we need</li>
-      </ol>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
 
-    <h3> <a href="contactme.html"> Contact Me </a></h3>
-       <table cellspacing="10">
-        <thead>
-<tr>
-    <th> Dates </th>
-    <th>Work</th>
+
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container flex-lg-column ">
+          <a class="navbar-brand mx-lg-auto mg-lg-4" href="#">
+            <span class="h3 fw-bold d-block d-lg-none ">My Portfolio</span>
+            <img src="./assets/images/profilephoto.png" class="d-none d-lg-block rounded-circle "  alt="" > 
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+             
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#work">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--//NAVBAR-->
+
+    <!--CONTENT WRAPPER-->
+    <div id="content-wrapper">
+
+        <!--HOME-->
+        <section id="home" class="full-height px-lg-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h1 class="display-4 fw-bold">PROFESSIONAL <span class="text-brand">FULL STACK DEVELOPER </span>AT YOUR SERVICE</h1>
+                        <p class="lead mt-2 mb-4">Hi I am Harsh Vaidya, "Computer Science Student | Enthusiastic Technophile | Web Development | Coding | Problem Solving | Graphic Design"</p>
+                        <a href="#work" class="btn btn-brand me-3">Explore my Work</a>
+                        <a href="./assets/cv/HARSH VAIDYA_resume.pdf" class="btn btn-brand me-3">Resume</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--//HOME-->
+
+        <!--SERVICES-->
+        <section id="services" class="full-height px-lg-5">
+            <div class="container">
+
+
+                <div class="row-pb-4" data-aoz="fade-up">
+                  <div class="col-lg-8">
+                      <h6 class="text-brand">SERVICES</h6>
+                      <h1>Services That I Provide</h1>
+                  </div>
+                </div>
+
+                <div class="row">
+<div class="col-md-4">
+  <div class="service p-4 bg-base rounded-4 shadow-effect">
+    <div class="iconbox rounded-4">
+      <i class="las la-pen-nib"></i>
+    </div>
+    <h4 class="mt-4 mb-2">Content Creator</h4>
+    <ul>
+      <li>Excellent writing and grammar skills</li>
+      <li>Strong research and analytical abilities</li>
+      <li>Understanding of SEO best practices</li>
+      <li>Adaptability in writing style and tone</li>
+      <li>Creativity in generating ideas and storytelling</li>
+      <li>Proficiency in content management systems (CMS)</li>
+      <li>Knowledge of social media platforms and trends</li>
+      <li>Attention to detail and proofreading skills</li>
+      <li>Ability to meet deadlines and work independently</li>
+    </ul>
+    <a href="#" class="link-custom">Read More</a>
+  </div>
+</div>
+
+
+
+<div class="col-md-4">
+  <div class="service p-4 bg-base rounded-4 shadow-effect">
+    <div class="iconbox rounded-4">
+      <i class="las la-globe"></i>
+    </div>
+    <h4 class="mt-4 mb-2">Web Development</h4>
+    <p>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>React.js</li>
+      <li>Node.js</li>
+      <li>PHP</li>
+      <li>Python</li>
+      <li>MySQL</li>
+      <li>MongoDB</li>
+    </ul>
+    </p>
+    <a href="#" class="link-custom">Read More</a>
+  </div>
+</div>
+
+
+<div class="col-md-4">
+  <div class="service p-4 bg-base rounded-4 shadow-effect">
+    <div class="iconbox rounded-4">
+      <i class="las la-laptop-code"></i>
+    </div>
+    <h4 class="mt-4 mb-2">Computer Programming</h4>
+    <p>
+    <ul>
+      <li>Python</li>
+      <li>Java</li>
+      <li>C++</li>
+      <li>JavaScript</li>
+      <li>Ruby</li>
+      <li>PHP</li>
+      <li>NodeJS</li>
+      <li>ReactJS</li>
+    </ul>
+    </p>
+    <a href="#" class="link-custom">Read More</a>
+  </div>
+</div>
+          </section>
+        <!--/SERVICE-->
+
+        <!--WORK-->
+        <section id="work" class="full-height px-lg-5">
+          <div class="container">
+      
+              <div class="row pb-4">
+                  <div class="col-lg-8">
+                      <h6 class="text-brand">WORK</h6>
+                      <h1>My Recent Projects</h1>
+                  </div>
+              </div>
+      
+              <div class="row gy-4">
+      
+                  <div class="col-md-6">
+                      <div class="card-custom rounded-4 bg-base shadow-effect">
+                          <div class="card-custom-image rounded-4">
+                              <img class="rounded-4" src="./assets/images/project-1.jpg" alt="">
+                          </div>
+                          <div class="card-custom-content p-4">
+                              <h4>Startup Landing Page</h4>
+                              <p>Innovation that exceeds expectations. Astra is a true template equiqed with all the elements you could ever need to put together</p>
+                              <a href="#" class="link-custom">Read More</a>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <div class="col-md-6">
+                      <div class="card-custom rounded-4 bg-base shadow-effect">
+                          <div class="card-custom-image rounded-4">
+                              <img class="rounded-4" src="./assets/images/project-2.png" alt="">
+                          </div>
+                          <div class="card-custom-content p-4">
+                              <h4>Startup Landing Page</h4>
+                              <p>Innovation that exceeds expectations. Astra is a true template equiqed with all the elements you could ever need to put together</p>
+                              <a href="#" class="link-custom">Read More</a>
+                          </div>
+                      </div>
+                  </div>
+      
+                 
+              </div>
+      
+          </div>
+      </section>
+        <!--/WORK-->
+
+        <!--ABOUT-->
+        <section id="about" class="full-height px-lg-5">
+          <div class="container">
+      
+              <div class="row pb-4">
+                  <div class="col-lg-8">
+                      <h6 class="text-brand">ABOUT</h6>
+                      <h1>My Education & Experience</h1>
+                  </div>
+              </div>
+      
+              <div class="row gy-5">
+                  <div class="col-lg-6">
+      
+                      <h3 class="mb-4">Education</h3>
+<div class="row gy-4">
+  <div class="col-12">
+    <div class="bg-base p-4 rounded-4 shadow-effect">
+      <h4>Higher Secondary</h4>
+      <p class="text-brand mb-2">Shannen - The Concept School</p>
+      <p class="mb-0">I completed my Higher Secondary Schooling from Shannen - The Concept School. During my time there,
+        I had the opportunity to acquire a strong academic foundation and develop essential skills that have been
+        instrumental in shaping my educational journey. The school provided a nurturing environment that fostered
+        holistic growth, encouraging students to excel in both academic and extracurricular activities. My experience at
+        Shannen has played a significant role in preparing me for higher education and equipped me with the necessary
+        skills to succeed in my future endeavors.</p>
+    </div>
+  </div>
+</div>
+
+      
+                    <div class="col-12">
+                      <div class="bg-base p-4 rounded-4 shadow-effect">
+                        <h4>B. Tech</h4>
+                        <p class="text-brand mb-2">GSFC University (2022 - current)</p>
+                        <p class="mb-0">I am currently pursuing my Bachelor of Technology (B.Tech) degree from GSFC University. As a student
+                          in the program, I am gaining a comprehensive understanding of various technical subjects and developing practical
+                          skills in areas such as computer science, engineering, and technology. The program has provided me with
+                          opportunities to explore different domains and engage in hands-on projects, helping me build a strong foundation
+                          for my future career in the field of technology.</p>
+                      </div>
+                    </div>
+
+      
+      
+      
+                      </div>
+      
+                  </div>
+      
+                  <div class="col-lg-6">
+      
+                      <h3 class="mb-4">Experience</h3>
+                      <div class="row gy-4">
+      
+<div class="col-12">
+  <div class="bg-base p-4 rounded-4 shadow-effect">
+    <h4>Web Development Intern</h4>
+    <p class="text-brand mb-2">Arth InfoTech</p>
+    <p class="mb-0">As a Web Development Intern at Arth InfoTech, I had the opportunity to work on various web
+      development projects and gain practical experience in the field. My role involved collaborating with a team of
+      experienced developers to assist in the creation and maintenance of websites and web applications. I actively
+      contributed to the development process by writing clean and efficient code, implementing responsive designs, and
+      troubleshooting issues. During my internship, I learned how to work with different technologies and frameworks
+      such as HTML, CSS, JavaScript, and Bootstrap. This hands-on experience allowed me to enhance my problem-solving
+      skills, learn industry best practices, and gain valuable insights into the world of web development.</p>
+  </div>
+</div>
+
+      
+<div class="col-12">
+  <div class="bg-base p-4 rounded-4 shadow-effect">
+    <h4>Incubatee Intern</h4>
+    <p class="text-brand mb-2">Guiitar Council</p>
+    <p class="mb-0">As an Incubatee Intern at Guiitar Council, I had the incredible opportunity to be part of a dynamic
+      team that fosters creativity and innovation in the music industry. My role involved collaborating with established
+      musicians, industry professionals, and fellow interns to develop and launch innovative music-related projects. I
+      actively contributed to brainstorming sessions, conducted market research, and assisted in the development and
+      execution of strategic plans. Throughout my internship, I gained valuable insights into the music industry
+      landscape, learned about marketing and promotion techniques, and honed my project management skills. This
+      experience provided me with a platform to explore my passion for music and entrepreneurship while working
+      alongside talented individuals who share the same drive and enthusiasm.</p>
+  </div>
+</div>
+
+      
+<div class="col-12">
+  <div class="bg-base p-4 rounded-4 shadow-effect">
+    <h4>Social Media Creator</h4>
+    <p class="text-brand mb-2">NanoLush</p>
+    <p class="mb-0">As a Social Media Creator at NanoLush, I was responsible for developing engaging content and
+      managing the company's social media presence. I created captivating posts, graphics, and videos to promote our
+      nanofertilizer products and highlight their benefits. By analyzing metrics and trends, I optimized our social
+      media strategy to increase brand awareness, reach, and engagement. Through creative storytelling and effective
+      communication, I successfully connected with our target audience and fostered a strong online community around
+      sustainable agriculture and eco-friendly practices.</p>
+  </div>
+</div>
+
+<div class="col-12">
+  <div class="bg-base p-4 rounded-4 shadow-effect">
+    <h4>Marketing Head</h4>
+    <p class="text-brand mb-2">NanoLush</p>
+    <p class="mb-0">As the Marketing Head at NanoLush, I led a team in developing and executing comprehensive marketing
+      strategies for our nanofertilizer products. I conducted market research to identify target markets, customer
+      preferences, and competitor analysis. Based on the insights gained, I formulated and implemented integrated
+      marketing campaigns across various channels, including digital advertising, events, and partnerships. I
+      collaborated closely with cross-functional teams to ensure consistent brand messaging and customer satisfaction.
+      By leveraging innovative marketing techniques and data-driven decision-making, I successfully positioned NanoLush
+      as a trusted and leading player in the nanofertilizer industry, driving business growth and fostering strong
+      customer relationships.</p>
+  </div>
+</div>
+
+
+      
+                      </div>
+      
+                  </div>
+      
+              </div>
+      
+          </div>
+      </section>
+
+        <!--/ABOUT-->
+
+        <!--CONTACT-->
+          <section id="contact" class="full-height px-lg-5">
+            <div class="container">
+              <div class="row  justify-content-center text-center">
+                <div class="col-lg-8 pb-4">
+                  <h6 class="text-brand">CONTACT</h6>
+                  <h1>Interested in working together? Let's talk</h1>
+                </div>
+
+                <div class="col-lg-8">
+                <form action="#" class="row g-lg-3 gy-3">
+
+                  <div class="form-group col-md-6">
+                    <input type="text" class="form-control" placeholder="Enter your name">
+                  </div>
+
+                  <div class="form-group col-md-6">
+                    <input type="email" class="form-control" placeholder="Enter your email">
+                  </div>
+
+                  <div class="form-group col-12">
+                    <input type="text" class="form-control" placeholder="Enter subject">
+                  </div>
+
+                  <div class="form-group col-12">
+                    <textarea name="" class="form-control" placeholder="Enter your message"></textarea>
+                  </div>
+
+                  <div class="form-group col-12 d-grid">
+                    <button type="submit" class="btn btn-brand">Contact Me</button>
+                  </div>
+
+                </form>
+              </div>
+              </div>
+
+            </div>
+          </section>
+        <!--/CONTACT-->
+
+        <!--FOOTER-->
+        <footer class="py-5 px-lg-5">
+          <div class="container">
+              <div class="row gy-4 justify-content-between">
+                  <div class="col-auto">
+                      <p class="mb-0">Designed by <a href="#" class="fw-bold">DNLV</a></p>
+                  </div>
+<div class="social-icons">
+  <a href="https://www.linkedin.com/in/harshvaidya04/"><i class="lab la-linkedin"></i></a>
+  <a href="https://github.com/harsh432004"><i class="lab la-github"></i></a>
+  <a href="https://www.youtube.com/"><i class="lab la-youtube"></i></a>
+</div>
+
+                  </div>
+              </div>
+          </div>
+      </footer>
+        <!--/FOOTER-->
     
-</tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td> 2004-2016 </td>
-                <td>I was child</td>
-                        </tr>
-                        <tr>
-                <td>2016-2023</td>
-                <td>I was teenager</td>
-            </tr>
-                        <tr>
-                <td>2023-20xx</td>
-                <td>I would be adult</td>
-                        </tr>
-                   
-                        <tr>
-                            <td>Hello My Name is Harsh  </td>
-                        </tr>
-                        <tr>
-                        <td>My mother's name is vaishali</td>
-                            </tr>
-                            <tr>
-                               <td>My father's name is Sachin</td>
-                            </tr>
-                            </tbody>
-                             </table>
-                             <hr>
-                          <thead>
-                            <tr>
-                            <h3>skills</h3>
-<table>
-    <tr>
-        <td>  
-            <table cellspacing="40">
-            <tr>
-                <td>Web Development</td>
-                <td>⭐⭐⭐</td>
-        
-            </tr>
-            <tr>
-                <td>Java programming </td>
-                <td>⭐⭐⭐</td>
-        
-            </tr>
-            <tr>
-                <td>Graphic Design</td>
-                <td>⭐⭐⭐</td>
-            </table></td>
-        </tr>  
     
-</table>
-                        </thead>
-                        <body>
-                         
-                            <hr>
-                        </body>
-                       
-                
+    
+    
+    </div>
+    <!--//CONTENT WRAPPER-->
+    <script src="main.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
